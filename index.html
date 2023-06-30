@@ -209,7 +209,7 @@
     <div class="nao_inicial">
 
       <!-- Divisão dos gráficos do Gustavo -->
-        <div id="divisaoGustavo", style="display: none;">
+        <div id="divisaoGustavo", style="visibility: hidden;">
           <div id="graficosGustavo">
 
                 <!-- Gráfico 1 -->
@@ -691,6 +691,7 @@
         function mostrarGustavo() {
             document.getElementById("conteudo").style.display = "none";
             document.getElementById("divisaoGustavo").style.display = "block";
+            document.getElementById("divisaoGustavo").style.visibility = "visible"
             document.getElementById("divisaoGuilherme").style.display = "none";
             document.getElementById("divisaoJoao").style.display = "none";
             document.getElementById("divisaoVinicius").style.display = "none";
